@@ -5,7 +5,7 @@ Processing 3.0a5 Pre-Release
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Download Processing at: https://processing.org/download/?processing  
   
 My Games:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-The Void:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-The Void:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Two-player colabrotive space fighting game.    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Space enviornemnt is infinitesimally large through procedural generation.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Implements simple seek and avoid AI behaviors  
