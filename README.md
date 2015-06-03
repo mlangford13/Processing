@@ -7,10 +7,10 @@ Processing 3.0a5 Pre-Release
 My Games:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-The Void:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Two-player colabrotive space fighting game.    
-              *Space enviornemnt is infinitesimally large through procedural generation.  
-              *Implements simple seek and avoid AI behaviors  
-              *Smooth physics  
-              *Multishape collision detection.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Space enviornemnt is infinitesimally large through procedural generation.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Implements simple seek and avoid AI behaviors  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Smooth physics  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Multishape collision detection.  
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Spooky:    *Objective: Shoot all ghosts before time runs out  
               *Multi-object collision detection  
