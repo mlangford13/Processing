@@ -16,4 +16,6 @@
   * *Objective: Shoot all ghosts before time runs out.*  
   * *Multi-object collision detection.*  
   * *Simple avoidance AI.*  
-[!Processing Image](https://processing.org/img/processing2-logo.jpg)
+If you want to embed images, this is how you do it:
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
