@@ -1,7 +1,7 @@
 # Processing
 **Processing 3.0a5 Pre-Release:**
 * Intergrated development enviornment for visual arts
-* All code written written in Java
+* All code written in Java
 * Download Processing [HERE](https://processing.org/download/?processing)
   
 **My Games**:
