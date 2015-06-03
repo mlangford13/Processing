@@ -1,10 +1,10 @@
 # Processing
-Processing 3.0a5 Pre-Release  
+**Processing 3.0a5 Pre-Release** 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Intergrated development enviornment for visual arts  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-All code written written in Java  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Download Processing at: https://processing.org/download/?processing  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Download Processing [here](https://processing.org/download/?processing)  
   
-My Games:  
+**My Games**:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-The Void:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Two-player colabrotive space fighting game.*    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Space enviornemnt is infinitesimally large through procedural generation.*  
