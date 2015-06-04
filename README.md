@@ -16,6 +16,4 @@
   * *Objective: Shoot all ghosts before time runs out.*  
   * *Multi-object collision detection.*  
   * *Simple avoidance AI.*  
-If you want to embed images, this is how you do it:
-
 ![Processing](https://processing.org/img/processing2-logo.jpg)
