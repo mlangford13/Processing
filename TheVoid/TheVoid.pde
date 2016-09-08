@@ -4,7 +4,7 @@ import java.util.LinkedHashMap;
 import java.util.Random;
 import java.util.Iterator;
 import java.util.LinkedList;
-import processing.sound.*;
+//import processing.sound.*;
 
 enum GameState {
   START, INSTRUCTIONS,
@@ -72,7 +72,7 @@ void setup()
 
   //Load all image/sound assets
   LoadImageAssets();      //See AssetLoader.pde
-  LoadSoundAssets();
+  //LoadSoundAssets();
   PrepareUIElements();
   startupFont = loadFont("SourceCodePro-Regular-48.vlw");
 

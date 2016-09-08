@@ -10,7 +10,7 @@ public class Explosion extends Drawable
   int imageFrames;                  //How many images (frames) are to be displayed              
   
   //Sound
-  SoundFile sound;
+  //SoundFile sound;
   boolean soundPlayed = false;
   
   //Delay action
@@ -29,7 +29,7 @@ public class Explosion extends Drawable
     images = explosionImgs;  //TODO: add constructor support for different explosion images
     renderMode = CENTER;
     
-    sound = explosionSound;
+    //sound = explosionSound;
   }
   
   //Delay how many frames from creation to actually render?
@@ -45,8 +45,8 @@ public class Explosion extends Drawable
     {
       if(!soundPlayed)        //Play the explosion sound
       {
-        sound.amp(0.5);
-        sound.play();
+        //sound.amp(0.5);
+        //sound.play();
         soundPlayed = true;
       }
       if(frameCounter < imageFrames)        //Have all frames been drawn?

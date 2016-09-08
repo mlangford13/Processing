@@ -93,7 +93,7 @@ HashMap<Integer,Sector> BuildSectors(Sector _origin)
 void GameObjectSetup()
 {
   LoadImageAssets();
-  LoadSoundAssets();
+  //LoadSoundAssets();
   
   Sector startSector = new Sector(0, new PVector(0,0), sectorSize, bg, SectorType.PLANETARY);
   sectors.put(0, startSector);
@@ -458,4 +458,3 @@ public static boolean implementsInterface(Object object, Class interf)
 {
     return interf.isInstance(object);
 }
-

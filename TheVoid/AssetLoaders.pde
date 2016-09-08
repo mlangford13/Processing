@@ -102,38 +102,38 @@ void LoadImageAssets()
   redBar = loadImage("Assets/UI/PNG/red_sliderUp.png");
 }
 
-SoundFile explosionSound, collisionSound, laserSound, 
-    clickShipSpawnButtonSound, clickMissileSpawnButtonSound, clickNormalModeButtonSound, 
-    clickCancelOrderButtonSound, errorSound, shieldHitSound, laserHitSound;
+//SoundFile explosionSound, collisionSound, laserSound, 
+//    clickShipSpawnButtonSound, clickMissileSpawnButtonSound, clickNormalModeButtonSound, 
+//    clickCancelOrderButtonSound, errorSound, shieldHitSound, laserHitSound;
     
-SoundFile introMusic;
-ArrayList<SoundFile> mainTracks;
-void LoadSoundAssets()
-{
-  String sketchDir = sketchPath("");    //Get current directory
-  explosionSound = new SoundFile(this, sketchDir + "Assets/SoundEffects/Impact/explosion2.wav");
-  collisionSound = new SoundFile(this, sketchDir + "Assets/SoundEffects/Impact/Hit Impact Metal Scrap Debris_UC 06.wav");
-  laserSound = new SoundFile(this, sketchDir + "Assets/SoundEffects/Weapons/laser6.wav");
-  clickShipSpawnButtonSound = new SoundFile(this, sketchDir + "Assets/SoundEffects/UI/AstroDroid11.wav");
-  clickMissileSpawnButtonSound = new SoundFile(this, sketchDir + "Assets/SoundEffects/UI/AstroDroid26.wav");
-  clickNormalModeButtonSound = new SoundFile(this, sketchDir + "Assets/SoundEffects/UI/on.ogg");
-  clickCancelOrderButtonSound = new SoundFile(this, sketchDir + "Assets/SoundEffects/UI/off.ogg");
-  errorSound = new SoundFile(this, sketchDir + "Assets/SoundEffects/UI/error.wav");
-  shieldHitSound = new SoundFile(this, sketchDir + "Assets/SoundEffects/Impact/138489__randomationpictures__shield-hit-2.wav");
-  laserHitSound = new SoundFile(this, sketchDir + "Assets/SoundEffects/Weapons/laser4_0.wav");
+//SoundFile introMusic;
+//ArrayList<SoundFile> mainTracks;
+//void LoadSoundAssets()
+//{
+//  String sketchDir = sketchPath("");    //Get current directory
+//  explosionSound = new SoundFile(this, sketchDir + "Assets/SoundEffects/Impact/explosion2.wav");
+//  collisionSound = new SoundFile(this, sketchDir + "Assets/SoundEffects/Impact/Hit Impact Metal Scrap Debris_UC 06.wav");
+//  laserSound = new SoundFile(this, sketchDir + "Assets/SoundEffects/Weapons/laser6.wav");
+//  clickShipSpawnButtonSound = new SoundFile(this, sketchDir + "Assets/SoundEffects/UI/AstroDroid11.wav");
+//  clickMissileSpawnButtonSound = new SoundFile(this, sketchDir + "Assets/SoundEffects/UI/AstroDroid26.wav");
+//  clickNormalModeButtonSound = new SoundFile(this, sketchDir + "Assets/SoundEffects/UI/on.ogg");
+//  clickCancelOrderButtonSound = new SoundFile(this, sketchDir + "Assets/SoundEffects/UI/off.ogg");
+//  errorSound = new SoundFile(this, sketchDir + "Assets/SoundEffects/UI/error.wav");
+//  shieldHitSound = new SoundFile(this, sketchDir + "Assets/SoundEffects/Impact/138489__randomationpictures__shield-hit-2.wav");
+//  laserHitSound = new SoundFile(this, sketchDir + "Assets/SoundEffects/Weapons/laser4_0.wav");
 
-  //Music
-  introMusic = new SoundFile(this, sketchDir + "Assets/Music/ZanderNoriega-Darker_Waves_0.mp3");
-  mainTracks = new ArrayList<SoundFile>();
-  SoundFile track1 = new SoundFile(this, sketchDir + "Assets/Music/e.ogg");
-  SoundFile track2 = new SoundFile(this, sketchDir + "Assets/Music/Nebulous.mp3");
-  SoundFile track3 = new SoundFile(this, sketchDir + "Assets/Music/poss_-_next_-_attack.mp3");
-  SoundFile track4 = new SoundFile(this, sketchDir + "Assets/Music/streetsound_150_bpm.mp3");
-  mainTracks.add(track1); 
-  mainTracks.add(track2);
-  mainTracks.add(track3);
-  mainTracks.add(track4);
-}
+//  //Music
+//  introMusic = new SoundFile(this, sketchDir + "Assets/Music/ZanderNoriega-Darker_Waves_0.mp3");
+//  mainTracks = new ArrayList<SoundFile>();
+//  SoundFile track1 = new SoundFile(this, sketchDir + "Assets/Music/e.ogg");
+//  SoundFile track2 = new SoundFile(this, sketchDir + "Assets/Music/Nebulous.mp3");
+//  SoundFile track3 = new SoundFile(this, sketchDir + "Assets/Music/poss_-_next_-_attack.mp3");
+//  SoundFile track4 = new SoundFile(this, sketchDir + "Assets/Music/streetsound_150_bpm.mp3");
+//  mainTracks.add(track1); 
+//  mainTracks.add(track2);
+//  mainTracks.add(track3);
+//  mainTracks.add(track4);
+//}
 
 
 

@@ -6,7 +6,7 @@ public class ToggleButton extends UI implements Clickable
 {
   String text;
   TogglableBoolean varToToggle;      //What to toggle if button is pushed
-  private SoundFile clickSound;              //To play if clicked
+  //private SoundFile clickSound;              //To play if clicked
   
   /**
    * Creates a button that, when clicked, toggles a mutable TogglableBoolean
@@ -36,10 +36,10 @@ public class ToggleButton extends UI implements Clickable
     varToToggle = _variable;
   }
   
-  public void SetClickSound(SoundFile _sound)
-  {
-    clickSound = _sound;
-  }
+  //public void SetClickSound(SoundFile _sound)
+  //{
+  //  clickSound = _sound;
+  //}
   
   public void SetTextColor(color _color)
   {
@@ -81,10 +81,10 @@ public class ToggleButton extends UI implements Clickable
   
   void Click()
   {
-    if(clickSound != null)
-    {
-      clickSound.play();
-    }
+    //if(clickSound != null)
+    //{
+    //  clickSound.play();
+    //}
     
     if(debugMode.value)
     {

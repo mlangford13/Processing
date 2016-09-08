@@ -104,7 +104,7 @@ public class Shield extends Physical implements Updatable
   {
     super.HandleCollision(_other);
 
-    shieldHitSound.play();
+    //shieldHitSound.play();
 
   }
   

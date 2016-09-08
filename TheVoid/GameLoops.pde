@@ -309,27 +309,27 @@ void DrawGameOverLoop()
 
 //--------- MISC -----------//
 
-SoundFile currentTrack;
+//SoundFile currentTrack;
 long trackStartTime;
 int currentTrackIndex = 0;
 void MusicHandler()
 {
-  if(millis() > trackStartTime + currentTrack.duration()*1000 + 200)    //Track ended 
-  {
-    if(currentTrackIndex < mainTracks.size())
-    {
-      println("[INFO] New track now playing");
-      currentTrack = mainTracks.get(currentTrackIndex);
-      currentTrack.play();
-      currentTrackIndex++;
-      trackStartTime = millis();
-    }
-    else    //Ran out of songs -- start again
-    {
-      currentTrackIndex = 0;
-      MusicHandler();
-    }
-  }
+  //if(millis() > trackStartTime + currentTrack.duration()*1000 + 200)    //Track ended 
+  //{
+  //  if(currentTrackIndex < mainTracks.size())
+  //  {
+  //    println("[INFO] New track now playing");
+  //    currentTrack = mainTracks.get(currentTrackIndex);
+  //    currentTrack.play();
+  //    currentTrackIndex++;
+  //    trackStartTime = millis();
+  //  }
+  //  else    //Ran out of songs -- start again
+  //  {
+  //    currentTrackIndex = 0;
+  //    MusicHandler();
+  //  }
+  //}
 }
 
 //---------UI----------//
