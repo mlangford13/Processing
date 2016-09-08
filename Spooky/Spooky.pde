@@ -1,4 +1,4 @@
-import processing.sound.*;
+//import processing.sound.*;
 
 /*
 Michael Langford
@@ -17,8 +17,8 @@ String ghostName = "ghost2.png";
 String flashName = "blackBG2.png";
 
 int ghostsLeft;
-SoundFile gunShot;
-SoundFile ghostDeath;
+//SoundFile gunShot;
+//SoundFile ghostDeath;
 
 PFont font;
 long prevMillis;
@@ -43,7 +43,7 @@ void setup()
   ghost = loadImage(ghostName);
   flash = loadImage(flashName);
 
-  size(displayWidth,displayHeight);
+  size(displayWidth, displayHeight, P3D);
   font= loadFont("Chiller-Regular-125.vlw");
   textFont(font, 125);
   
@@ -51,8 +51,8 @@ void setup()
   instruct= false;
   end = false;
   
-  gunShot = new SoundFile(this, "gunShot.mp3");
-  ghostDeath = new SoundFile(this,"ghostDeath.mp3");
+  //gunShot = new SoundFile(this, "gunShot.mp3");
+  //ghostDeath = new SoundFile(this,"ghostDeath.mp3");
   instructDuration = 6000;
   explode = new Animation(13);
   crosshair= new Crosshair();

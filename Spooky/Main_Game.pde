@@ -22,14 +22,14 @@ void mainGame()
 
 void mousePressed()
 {
- gunShot.play();
+ //gunShot.play();
  for(int i=ghosts.size()-1; i>=0; i--)
   {
     Ghost g = ghosts.get(i);
     boolean hit = g.checkHit();
     if(hit)
     {
-      ghostDeath.play();
+     //ghostDeath.play();
       if(explode.execute == false)
       {
         explode.execute = true;
