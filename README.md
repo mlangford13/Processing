@@ -18,4 +18,4 @@
   * *Objective: Shoot all ghosts before time runs out.*  
   * *Multi-object collision detection.*  
   * *Simple avoidance AI.*  
-![Processing](https://processing.org/img/processing2-logo.jpg)
+
