@@ -14,7 +14,7 @@
   * *Multishape collision detection.*  
   
 * Spooky:  
-![Spooky](http://oi66.tinypic.com/nxrvbq.jpg)
+![Spooky](http://i66.tinypic.com/2rorl07.gif)
   * *Objective: Shoot all ghosts before time runs out.*  
   * *Multi-object collision detection.*  
   * *Simple avoidance AI.*  
