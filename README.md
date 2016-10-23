@@ -6,13 +6,15 @@
   
 **My Games**:
 * The Void:  
+![Void](http://oi66.tinypic.com/nxrvbq.jpg)
   * *Two-player colabrotive space fighting game.*    
   * *Space enviornemnt is infinitesimally large through procedural generation.*  
   * *Implements simple seek and avoid AI behaviors.*  
   * *Smooth physics.*  
   * *Multishape collision detection.*  
   
-* Spooky:    
+* Spooky:  
+![Spooky](http://oi66.tinypic.com/nxrvbq.jpg)
   * *Objective: Shoot all ghosts before time runs out.*  
   * *Multi-object collision detection.*  
   * *Simple avoidance AI.*  
